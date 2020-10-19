@@ -1,5 +1,5 @@
 1. What is a flaky test?
-Flaky test merupakan test dengan konfigurasi yang sama tetapi dengan konfigurasi yang sama tersebut bisa berhasil ataupun tidak sehingga perlu ada penyesuaian yang biasanya tidak memerlukan perubahan pada konfigurasi seperti menambahkan delay.
+Flaky test is a test with the same configuration but with the same configuration it can be successful or not, so there needs to be adjustments which usually do not require changes to the configuration such as adding delay.
 2. An element in a website is using ajax/javascript to show the data (processed as
 asynchronous). What do you do to test that element?
 Wait Until Element Is Enabled, and setting delay x sec

@@ -15,7 +15,7 @@ Login Successfully
     TestStart
     Wait Until Page Contains Element    id=${package}:id/email    timeout=60
     Click Element   id=${package}:id/email
-    Input Text  id=${package}:id/email    myemail@news.com.au
+    Input Text  id=${package}:id/email    vedy@mailinator.com
     Click Element   id=${package}:id/password
     Input Password  id=${package}:id/password mypassword
     Hide Keyboard
@@ -27,7 +27,7 @@ Login Failed
     TestStart
     Wait Until Page Contains Element    id=${package}:id/email    timeout=60
     Click Element   id=${package}:id/email
-    Input Text  id=${package}:id/email    myemail@news
+    Input Text  id=${package}:id/email    vedy@mailinator.coms
     Click Element   id=${package}:id/password
     Input Password  id=${package}:id/password mypassword
     Hide Keyboard
