@@ -1,0 +1,8 @@
+1. What is a flaky test?
+Flaky test merupakan test dengan konfigurasi yang sama tetapi dengan konfigurasi yang sama tersebut bisa berhasil ataupun tidak sehingga perlu ada penyesuaian yang biasanya tidak memerlukan perubahan pada konfigurasi seperti menambahkan delay.
+2. An element in a website is using ajax/javascript to show the data (processed as
+asynchronous). What do you do to test that element?
+Wait Until Element Is Enabled, and setting delay x sec
+3. A website page can only be accessed with CAPTCHA. How do you test that page?
+CAPTCHA cannot be automated, i think web with CAPTCHA can't be automate becouse thats the main reason of CPATCHA to prevent robot automated our website. if CAPTCHA can be by passed than the CAPTCHA itself is failed.
+there are some third party maybe can by pass CAPTCHA but for security resson im not recomended. for example the third party can collect our data.
